@@ -1,0 +1,168 @@
+.tudo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width: 60%;
+	border: solid 1px #000;
+	margin: 0 auto;
+	padding: 30px 30px 30px 30px;
+}
+
+.linha{
+	clear: both;
+}
+
+
+
+h1{
+	text-align: center;
+	background-color: blueviolet;
+	color: aliceblue;
+	margin-top: 0px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#foto img{
+	max-width: 200px;
+	border-radius: 100px;
+	border: 5px solid rgb(219, 196, 255);
+	
+}
+
+#foto{
+	width: 30%;
+	float: left;
+	text-align: center;
+	
+}
+
+#ajuste{
+	width: 70%;
+	float: left;
+}
+
+#dados{
+	width: 70%;
+	float: left;
+	
+}	
+
+
+#icon{
+	margin-top: 35px;
+	width: 30%;
+	float: left;
+}
+
+#icon a{
+	width: 40px;
+	margin-right: 0;
+	margin-left: auto;
+	display: grid;
+
+}
+
+#icon img{
+	width: 40px;
+
+}
+
+.fonteDados{
+	color: rgb(219, 196, 255);
+	font-weight: bolder;
+}
+
+h2{
+	color: rgb(219, 196, 255);
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+hr{
+	border-color: rgb(219, 196, 255);
+}
+
+h4{
+	margin-bottom: 0px;
+}
+
+#coluna1{
+	padding-right: 20px;
+	float: left;
+	width: 48%;
+}
+
+#coluna2{
+	float: left;
+	width: 1px;
+	height: 400px;
+	background-color: #000;
+	margin-top: 20px;
+}
+
+#coluna3{
+	padding-left: 20px;
+	float: left;
+	width: 48%;
+}
+
+h5{
+	font-size: larger;
+	margin: 0;		
+	padding: 6px;
+}
+
+h3{
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+
+.titulohabilidade{
+	display: inline-block;
+	padding: 6px;
+}
+
+.circulo{
+	width: 12px;
+	height: 12px;
+	background-color:rgb(219, 196, 255);
+	float: right;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.barra{
+	width: 87px;
+	height: 10px;
+	float: right;
+	border-radius: 5px;
+	border: 1px solid rgb(219, 196, 255); 
+}
+
+.barraIng{
+	width: 65px;
+	height: 10px;
+	float: right;
+	border-radius: 5px;
+	background-color: rgb(219, 196, 255);
+}
+
+.barraPt{
+	width: 87px;
+	height: 10px;
+	float: right;
+	border-radius: 5px;
+	background-color: rgb(219, 196, 255);
+}
+
+.barraEsp{
+	width: 50px;
+	height: 10px;
+	float: right;
+	border-radius:  5px;
+	background-color:rgb(219, 196, 255) ;
+}
+
+
+

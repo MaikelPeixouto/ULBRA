@@ -1,0 +1,218 @@
+*{
+    margin: 0 auto; 
+}
+
+body{
+    background-color: gray;
+}
+
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    clear: both;
+}
+
+#cabecalho{
+    background-color: #162e58;
+    min-height: 100px;
+    padding: 30px 50px 10px 50px;
+    position: relative;
+    width: calc(100% - 100px);
+}
+
+#h1TituloCabecalho{
+    color: #fff;
+    text-align: center;
+    width: 82%;
+    font-size: 17px;
+    float: left;
+    
+}
+
+#divClassificacao{
+    background-color: #fff;
+    width: 60%;
+}
+
+ h3
+{
+    padding:8px 0px;
+}
+table, th, td{
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px;
+}
+
+th{
+    color: darkgray;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+td{
+    font-size: 14px;
+    text-align: center;
+}
+
+.tableJogos{
+    width: 100%;
+}
+
+#divGoleadores{
+    background-color: #fff;
+    width: 60%;
+}
+
+#tableGoleadores{
+    background-color: #fff;
+    width: 100%;
+}
+
+#divJogos{
+    background-color: #fff;
+    width: 60%;
+}
+
+#tableJogos{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 20px;
+    border-radius: 50%;
+}
+
+.thNomeClube{
+    width: 50%;
+    text-align: left;
+}
+
+.thUltimasCinco{
+    width: 20%;
+}
+.tdImgClube{
+    width: 5%;
+}
+
+.imgClube{
+    width: 20px;
+    height: 20px;
+    text-align: left;
+}
+
+.tdNomeClube{
+    width: 10%;
+    text-align: left;
+}
+
+.divVit{
+    background-image: url("../img/img/v.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 10px;
+}
+
+.divEmp{
+    background-image: url("../img/img/e.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}   
+
+.divDerr{
+    background-image: url("../img/img/d.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.tdPosicao{
+    width: 1%;
+    font-size: 14px;
+}
+
+.spanNomeClube{
+    color: darkgray;
+    font-size: 12px;
+}
+
+.tdJogador{
+    text-align: left;
+    width: 100%;
+}
+
+.thJogador{
+    text-align: left;
+}
+
+.tableJogo{
+    width: 100%;
+    text-align: left;
+}
+
+.tdDataJogo{
+    font-size: 12px;
+    text-align: center;
+}
+
+.thTableJogo{
+    text-align: left;
+}
+
+.tdClube{
+    text-align: left;
+    width: 80%;
+}
+
+.tdHorario{
+    text-align: center;
+    font-size: 10px;
+}
+
+.divMenu
+{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    bottom: 0;
+    width: calc(58% - 100px);
+    clear: both;
+    text-align: center;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.itemMenu{
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 12%;
+    height: 30px;
+}
+
+.itemMenu:hover{
+    background-color: black;
+}
+
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+#imgUEFA{
+    float: left;
+    width: 130px;
+    border-radius: 10%;
+}
